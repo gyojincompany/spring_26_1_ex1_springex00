@@ -46,4 +46,9 @@ public class HomeController {
 		return "welcome";
 	}
 	
+	@RequestMapping("/loginForm.html")
+	public String loginForm() {
+		return "loginForm";
+	}
+	
 }
